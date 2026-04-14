@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "crons": [
+    {
+      "path": "/api/generate-keys",
+      "schedule": "0 0 * * *"
+    }
+  ],
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 30
+    }
+  }
+}

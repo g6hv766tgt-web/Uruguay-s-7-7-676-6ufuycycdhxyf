@@ -1,0 +1,12 @@
+{
+  "name": "secure-claude-app",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "firebase-admin": "^12.1.0"
+  }
+}
